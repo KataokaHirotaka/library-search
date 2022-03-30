@@ -1,9 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "./App.css";
-import { Header } from "./components/header";
-import "./foundation/base.scss";
-import { Home } from "./pages/home";
-import { Test } from "./pages/test";
+import "../foundation/base.scss";
+import { Home } from "../pages/home";
+import { Test } from "../pages/test";
 const App = (): JSX.Element => {
   return (
     <BrowserRouter>

@@ -13,6 +13,7 @@ type Props = {
 export const Form = (props: Props): JSX.Element => {
   console.log("Formコンポーネント");
   const { handleChange, city, handleClick } = props;
+  console.log(city);
 
   return (
     <div className={styles.form}>
@@ -32,7 +33,7 @@ export const Form = (props: Props): JSX.Element => {
             })}
           </select>
         </div>
-        {city.length >= 1 ? (
+        {city ? (
           <div>
             <label>市区町村を選択してください</label>
             <select>
