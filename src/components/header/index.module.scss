@@ -1,0 +1,17 @@
+.header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: #87cefa;
+  h1 {
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+  }
+  li {
+    cursor: pointer;
+  }
+}
